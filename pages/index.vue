@@ -7,7 +7,7 @@
       <LargeCardDisplay
         v-for="cardInfo in largeCardInfo"
         :key="cardInfo.id"
-        :cardsSection="cardInfo"
+        :cardSection="cardInfo"
       />
       <SmallCardDisplay
         v-for="cardInfo in smallCardInfo"
